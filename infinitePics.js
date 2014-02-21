@@ -1,7 +1,7 @@
 /*
 Author: Keith S Messina
 
-$(document).ready(function() {
+$(window).load(function() {
     $('#element').infinitePics({
         userId: 'google+_userid',
         albumId: 'albumid',
