@@ -11,7 +11,7 @@ All you need to do is:
 
 2) Target an element with the function:
 
-    $(document).ready(function() {
+    $(window).load(function() {
         $('#element').infinitePics({
             userId: 'google+_userid',
             albumId: 'albumid',
