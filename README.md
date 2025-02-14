@@ -11,7 +11,7 @@ All you need to do is:
 
 2) Target an element with the function:
 
-    $(window).load(function() {
+```    $(window).load(function() {
         $('#element').infinitePics({
             userId: 'google+_userid',
             albumId: 'albumid',
@@ -20,4 +20,5 @@ All you need to do is:
             maxHeight: 150,           <---optional
             speed: 10                 <---optional to make it animated.
          });
-    });
+       });
+```
